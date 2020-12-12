@@ -262,12 +262,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   font-size: 16px;
   display: inline-block;
-  border: 2px solid #00B863;
+  border: 2px solid #F2B705;
   font-weight: 600;
 }
 
 .get-started-btn:hover {
-  background: #00B863;
+  background: #F2B705;
   color: #fff;
 }
 
@@ -475,9 +475,29 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 50%;
   }
+  
+}
+@media (max-height : 441px) and (max-width: 991px){
+  #hero {
+    height: 100vh;
+    text-align: center;
+  }
+  #hero .animated {
+    -webkit-animation: none;
+    animation: none;
+  }
+  #hero .hero-img {
+    text-align: center;
+  }
+  #hero .hero-img img {
+    width: 50%;
+  }
+  .box-img-center { 
+    margin-top: 200px;
+  }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px)  {
   #hero h1 {
     font-size: 28px;
     line-height: 36px;
@@ -490,6 +510,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 70%;
   }
+  
 }
 
 @media (max-width: 575px) {
