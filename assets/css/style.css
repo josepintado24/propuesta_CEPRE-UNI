@@ -478,10 +478,7 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 @media (max-height : 441px) and (max-width: 991px){
-  #hero {
-    height: 150vh;
-    
-  }
+  
   #hero .animated {
     -webkit-animation: none;
     animation: none;
@@ -492,7 +489,9 @@ h1, h2, h3, h4, h5, h6 {
   #hero .hero-img img {
     width: 50%;
   }
-  
+  .box-img-center { 
+    margin-top: 200px;
+  }
 }
 
 @media (max-width: 768px)  {
