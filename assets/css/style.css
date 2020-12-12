@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -406,11 +406,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #FFE1AA;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(232, 204, 163, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
@@ -426,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #D98E04;
 }
 
 #hero .btn-get-started:hover {
@@ -1627,7 +1627,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #47e47b !important;
+  background-color: #F2B705 !important;
 }
 
 .portfolio-details .portfolio-info {
