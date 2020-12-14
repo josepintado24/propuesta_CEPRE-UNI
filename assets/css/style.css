@@ -20,11 +20,11 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #3C7899;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #3C7899;
   text-decoration: none;
 }
 
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #ffffff;
+  color: #FFE1AA;
 }
 
 #hero h2 {
@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #D97904;
 }
 
 #hero .btn-watch-video {
@@ -453,7 +453,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #3C7899;
 }
 
 #hero .animated {
@@ -485,7 +485,12 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 @media (max-height : 441px) and (max-width: 991px){
-  
+  #header {
+    padding: 10px 0;
+  }
+  #header .logo img {
+    max-height: 40px;
+  }
   #hero .animated {
     -webkit-animation: none;
     animation: none;
@@ -523,7 +528,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
   #hero .hero-img img {
-    width: 80%;
+    width: 90%;
   }
   #hero .btn-get-started {
     font-size: 16px;
