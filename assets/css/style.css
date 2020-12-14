@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo a {
-  color: #fff;
+  color: rgb(216, 11, 11);
 }
 
 #header .logo img {
@@ -461,6 +461,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 991px) {
+  #header {
+    padding: 10px 0;
+  }
+  #header .logo img {
+    max-height: 40px;
+  }
+
   #hero {
     height: 100vh;
     text-align: center;
