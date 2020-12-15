@@ -162,16 +162,16 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #F2DCC2;
   transition: 0.3s;
-  font-size: 15px;
+  font-size: 16px;
   letter-spacing: 0.5px;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #00aaf8;
+  color: #9ed3f0;
 }
 
 .nav-menu .drop-down ul {
@@ -406,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #FFE1AA;
+  color: #FFD2A6;
 }
 
 #hero h2 {
@@ -444,7 +444,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video i {
-  color: #fff;
+  color: #F2E0D5;
   font-size: 32px;
   position: absolute;
   left: 0;
@@ -1700,7 +1700,8 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  
+  background: #6A1B0F;
 }
 
 #footer .footer-newsletter {
@@ -1758,7 +1759,10 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  /*background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg-sectorT.jpg") fixed center center;*/
+  background: linear-gradient(rgba(106 , 27, 15, 0.8), rgba(106 , 27, 15, 0.8)), url("../img/cta-bg-sectorT.jpg") fixed center center;
+  /* background: linear-gradient(to right, rgba(106 , 27, 15, 0.9) 0%, rgba(106, 27, 15, 0.9) 45%,rgba(238, 169, 169, 0.7) 100%), url("../img/cta-bg-sectorT.jpg") fixed center center; */
+  /* background: #fff; */
 }
 
 #footer .footer-top .footer-contact {
@@ -1772,7 +1776,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #FFD2A6;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1780,13 +1784,12 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #5e5e5e;
+  color: #FFD2A6;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
-  font-weight: bold;
-  color: #37517e;
+  font-weight: bold; color: rgba(232, 204, 163, 0.6);;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1803,7 +1806,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #47b2e4;
+  color: #FFD2A6;
   font-size: 18px;
   line-height: 1;
 }
@@ -1819,7 +1822,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #f8f8f8;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1827,7 +1830,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #47b2e4;
+  color: #fafafa;
 }
 
 #footer .footer-top .social-links a {
