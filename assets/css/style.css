@@ -43,7 +43,8 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: linear-gradient(to right, rgba(106 , 27, 15, 0.9) 0%, rgba(106, 27, 15, 0.9) 45%,rgba(238, 169, 169, 0.7) 100%), url("../img/cta-bg-sectorT.jpg") fixed center center;
+  /* background-image: linear-gradient(to right,#6A1B0F 0%, #7c2719 25%, #6A1B0F 40%, #FFD2A6 100%); */
 }
 
 #preloader:before {
@@ -51,9 +52,9 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
-  border-top-color: #fff;
-  border-bottom-color: #fff;
+  border: 6px solid #7D1B0F;
+  border-top-color: #FFD2A6;
+  border-bottom-color: #FFD2A6;
   border-radius: 50%;
   width: 60px;
   height: 60px;
